@@ -1,7 +1,54 @@
+body {
+  background: #ffffff;
+  font-family: "Lato", sans-serif;
+}
+
 h1 {
   text-align: center;
+
+  padding: 10px;
 }
 
 footer {
   text-align: center;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.box {
+  padding: 40px;
+  max-width: 600px;
+  margin: 60px auto;
+  border-style: solid;
+  border-width: 20px;
+  border-color: #b5e1e9;
+  border-radius: 5px;
+  background: #f57f5b;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container {
+  margin: 20px auto;
+  color: white;
+}
+
+.city {
+  font-size: 36px;
+  vertical-align: middle;
+}
+
+.time {
+  font-size: 48px;
+  text-align: right;
+  color: white;
+}
+
+.time small {
+  font-size: 18px;
 }
