@@ -35,7 +35,7 @@ function updateCity(event) {
   citiesElement.innerHTML = ` <div class="container" id="city">
         <div class="row">
           <div class="col-6 d-flex align-items-center">
-            <div class="city">${cityTimeZone}</div>
+            <div class="city">${cityName}</div>
           </div>
           <div class="col-6 d-flex align-items-center">
             <div class="time ml-auto">${cityTime.format(
