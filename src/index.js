@@ -44,7 +44,7 @@ function updateCity(event) {
           <div class="col-6 d-flex align-items-center">
             <div class="time ml-auto">${cityTime.format(
               "h:mm:ss"
-            )}<small>${cityTime.format("A")}</small></div>
+            )}<small> ${cityTime.format("A")}</small></div>
           </div>
         </div>
         <div class="row">
