@@ -49,7 +49,10 @@ function updateCity(event) {
         </div>
         <div class="row">
           <div class="col date">${cityTime.format("MMMM Do YYYY")}</div>
-        </div>`;
+         </div>  <button type="button" class="btn btn-light">
+  
+        <a href="/">Back to all cities</a>
+  </button>`;
 }
 
 updateTime();

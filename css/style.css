@@ -52,3 +52,10 @@ select {
 .time small {
   font-size: 18px;
 }
+
+.date {
+  font-size: 12px;
+  border-bottom: dashed #b5e1e9;
+  border-width: 1px;
+  margin-bottom: 20px;
+}
