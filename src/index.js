@@ -33,7 +33,7 @@ function updateCity(event) {
     cityTimeZone = moment.tz.guess();
   }
 
-  let cityName = cityTimeZone.replace("_", "").split("/")[1];
+  let cityName = cityTimeZone.replace("_", " ").split("/")[1];
   let cityTime = moment().tz(cityTimeZone);
   let citiesElement = document.querySelector("#cities");
   citiesElement.innerHTML = ` <div class="container" id="city">
